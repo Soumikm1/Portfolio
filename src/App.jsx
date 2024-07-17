@@ -26,13 +26,13 @@ import "./styles.css";
 const siteProps = {
   name: "Soumik Mandal",
   title: "Software and Blockchain Developer",
-  email: "alex@example.com",
-  gitHub: "microsoft",
-  instagram: "microsoft",
-  linkedIn: "satyanadella",
+  email: "soumikkvb@gmail.com",
+  gitHub: "Soumikm1",
+  instagram: "",
+  linkedIn: "soumik-mandal-825b94235",
   medium: "",
-  twitter: "microsoft",
-  youTube: "Code",
+  twitter: "",
+  youTube: "",
 };
 
 const primaryColor = "#4E567E";

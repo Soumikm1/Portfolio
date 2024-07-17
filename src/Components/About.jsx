@@ -5,12 +5,13 @@
  */
 
 import React from "react";
+import styles from "../styles.css"; // eslint-disable-line no-unused-vars
 
 /**
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
@@ -36,7 +37,7 @@ const skillsList = [
   "Blockchain developer",
   "Smart Contracts",
   "Web backend & database management",
-  "ML data visualization & EDA"
+  "ML data visualization & EDA",
 ];
 
 /**
@@ -63,15 +64,7 @@ const About = () => {
         <h2>About Myself</h2>
         <p className="large">{description}</p>
         <hr />
-        <ul
-          style={{
-            textAlign: "left",
-            columns: 2,
-            fontSize: "1.25rem",
-            margin: "2rem 3rem",
-            gap: "3rem",
-          }}
-        >
+        <ul>
           {skillsList.map((skill) => (
             <li key={skill}>{skill}</li>
           ))}

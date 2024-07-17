@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a CSE student studying at Indian Institute of Technology, Kharagpur, WB, India. I enjoy creating blockchain smart contract, and Dapps, along with developing websites.";
+  "I'm a CSE student studying at Indian Institute of Technology, Kharagpur, WB, India. I enjoy creating blockchain smart contract, and Dapps, and developing websites.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
